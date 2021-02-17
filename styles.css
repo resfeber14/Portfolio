@@ -1,0 +1,201 @@
+body{
+  
+  background-color: black;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#home{
+  background-color:#41228e;
+  color: #fff;
+}
+.nav-item{
+  padding: 0 18px;
+  letter-spacing: 0.5rem;
+  font-size:1.2rem;
+}
+
+.nav-link:hover, .btn:hover, footer a:hover{
+    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#intro-content{
+    display: inline-block;
+    width:50%;
+    margin-top: 13%;
+    padding-left: 20%;
+    
+    margin-bottom: 8%;
+    
+    
+}
+h1,h2,h3,h4,h5,h6{
+    line-height:2;
+    text-align: center;
+}
+p{
+  font-family: 'Rosario', sans-serif;
+}
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+ 
+}
+h2,h3,h4{
+  font-family: 'Kadwa', serif;
+}
+.title{
+    text-align: left;
+    width:100%;
+    margin-left: 50%;
+    
+}
+#profile{
+    width: 350px;
+    height:350px;
+    float:right;
+   margin-top:11% ;
+   margin-right: 15%;
+  
+}
+
+
+/*Skills-Section starts*/
+
+
+#skills-row{
+  padding-top:2% ;
+    margin-bottom: 0%;
+    background-color:#fff;
+  
+    color: #41228e;
+}
+
+.row{
+  padding-bottom: 5%;
+}
+#skills-row h1{
+  margin-bottom: 6%;
+}
+.progress{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom:5%;
+}
+
+  /*Skills Section end*/
+  /*Project Section Starts*/
+  #project{
+      margin-bottom: 10%;
+      background-color:#41228e;
+      color: #fff;
+
+  }
+  .pic1{
+      margin-left: 25%;
+      float: left;
+      padding-right:3%;
+      height: auto;
+      width: 30%;
+  }
+  #project h1{
+    margin-bottom: 5%;
+  }
+  .proj-txt1{
+    margin-bottom: 5%;
+    
+  }
+  .proj1{
+      width: 85%;
+      line-height: 2;
+  }
+  #rcorners1 {
+    border-radius: 10%;
+    background:coral;
+    display: inline-block;
+    padding: 0.3%;
+    padding-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    
+  }
+  #rcorners1:hover{
+    background-color: #35477d;
+
+  }
+  .btn1{
+      margin-right: 2%;
+  }
+  .project-row{
+      margin-bottom:10%;
+  }
+  .pic2{
+    float: right;
+    margin-right: 15%;
+    padding-right:3%;
+    padding-left:1.5% ;
+    height: auto;
+    width: 30%;
+    margin-bottom: 10%;
+  }
+  .proj2{
+      width: 50%;
+      margin-left: 25%;
+      line-height: 2;
+  }
+  #rcorners2 {
+    border-radius: 10%;
+    background:coral;
+    display: inline-block;
+    padding: 0.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+  }
+  #rcorners2:hover{
+    background-color: #f875aa;
+
+  }
+  .btn2{
+      margin-right: 4%;
+      margin-bottom: 10%;
+  }
+  
+  /*Footer Section*/
+  footer{
+    background-color: black;
+     text-align:center;
+     margin-bottom: 5%;
+     color: #fff;
+  }
+  footer h1{
+    margin-top: 0;
+    line-height: 2;
+      text-align: center;
+      margin-bottom: 10%;
+      line-height: 2;
+      text-align: center;
+     
+      
+  }
+  footer a{
+     text-align: center;
+     padding:1%;
+  }
+  .copyright{
+    
+      text-align:center;
+      
+  }
+  h1:hover, h2:hover{
+    transition: 1s;
+    text-decoration:underline;
+  }
+  
